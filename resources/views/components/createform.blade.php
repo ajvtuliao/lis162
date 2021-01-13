@@ -11,7 +11,7 @@
             <label for="name">Name</label>
             <input type="text" name="name" class="border-b" required>
             <label for="date">Date of Membership</label>
-            <input type="text" name="date" class="border-b" required>
+            <input type="date" name="date" class="border-b" required>
             <label for="status">Membership Status</label>
             <select name="status">
                 <option value="Active">Active</option>

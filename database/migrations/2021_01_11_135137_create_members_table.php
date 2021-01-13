@@ -18,7 +18,7 @@ class CreateMembersTable extends Migration
             $table->timestamps();
             $table->text('name');
             $table->text('membership');
-            $table->text('date');
+            $table->date('date');
             $table->text('current')->nullable();
         });
     }
