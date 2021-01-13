@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="{{ asset('css\app.css') }}">
 </head>
 
-<body>
+<body class="bg-gray-50">
     <div class="flex flex-1 flex-col h-screen items-center space-y-2">
         <x-header></x-header>
-        <x-passwordform :action="'/register'" :formtype="'Register'" :altformtype="'Login'"></x-passwordform>
+        <x-passwordform :action="'/register'" :formtype="'Register'" :altformtype="'Login'" class="px-2 py-1 text-gray-300 border-gray-200"></x-passwordform>
     </div>
 </body>
 
