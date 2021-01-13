@@ -23,9 +23,9 @@
             </select>
     </div>
 
-    <label for="current">Current Projects</label>
+    <label for="current" class="-mb-1">Current Projects</label>
     <input type="hidden" name="current" value="">
-    <textarea name="current" cols="30" rows="5" class="border border-black px-4">{{ $member->current }}</textarea>
-    <input type="submit" value="Submit">
+    <textarea name="current" cols="30" rows="5" class="border border-black px-2 pt-2">{{ $member->current }}</textarea>
+    <input type="submit" value="Submit" class="border text-white font-medium bg-blue-900">
     </form>
 </div>
