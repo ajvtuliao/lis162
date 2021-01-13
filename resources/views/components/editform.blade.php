@@ -12,7 +12,7 @@
             <label for="name">Name</label>
             <input type="text" name="name" value="{{ $member->name }}" class="border-b">
             <label for="date">Date of Membership</label>
-            <input type="text" name="date" value="{{ $member->date }}" class="border-b">
+            <input type="date" name="date" value="{{ $member->date }}" class="border-b">
             <label for="status">Membership Status</label>
             <select name="status">
                 <option value="Active" {{ $member->membership=='Active' ? 'selected': '' }}>Active</option>
@@ -25,7 +25,7 @@
 
     <label for="current">Current Projects</label>
     <input type="hidden" name="current" value="">
-    <textarea name="current" cols="30" rows="5" class="border border-black">{{ $member->current }}</textarea>
+    <textarea name="current" cols="30" rows="5" class="border border-black px-4">{{ $member->current }}</textarea>
     <input type="submit" value="Submit">
     </form>
 </div>
