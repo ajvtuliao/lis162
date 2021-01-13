@@ -12,7 +12,12 @@
             @foreach($members as $member)
             <tr>
                 <td class="text-center hover:underline border-b subpixel-antialiased font-semibold text-gray-700"><a href="#view-{{ $member->id }}" rel="modal:open">{{ $member->name }}</a></td>
-                <td class="text-center border-b subpixel-antialiased">{{ $member->membership }}</td>
+                <td class="text-center border-b subpixel-antialiased">
+                    <div>
+                    <img src="{{ asset('img/'.strtolower($member->membership).'.svg') }}" alt="" class="w-1/12">
+                    {{ $member->membership }}                    
+                    </div>
+                </td>
                 <td class="border-b subpixel-antialiased"><a href="#edit-{{ $member->id }}" rel="modal:open" class="flex justify-center"><img src="{{ asset('img/edit.svg') }}" class="w-3/12 md:w-1/12"></a></td>
                 <td class="border-b "><a href="/delete/{{ $member->id }}" class="flex justify-center"><img src="{{ asset('img/delete.svg') }}" class="w-3/12 md:w-1/12"></a></td>
             </tr>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   viewBox="0 0 90.209999 90.209999"
+   width="90.209999"
+   height="90.209999"
+   id="svg33"
+   sodipodi:docname="moderator.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="835"
+     inkscape:window-height="480"
+     id="namedview35"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.8515625"
+     inkscape:cx="62.529999"
+     inkscape:cy="83.580002"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg33" />
+  <defs
+     id="defs3">
+    <path
+       d="m 333.68,280.53 c 0,17.72 -14.38,32.1 -32.1,32.1 -17.72,0 -32.11,-14.38 -32.11,-32.1 0,-17.72 14.39,-32.11 32.11,-32.11 17.72,0 32.1,14.39 32.1,32.11 z"
+       id="a4iNAZFK3" />
+  </defs>
+  <g
+     id="g31"
+     transform="translate(-257.47,-236.42)">
+    <g
+       id="g29">
+      <g
+         id="g27">
+        <g
+           id="g23">
+          <filter
+             id="shadow15918135"
+             x="257.47"
+             y="236.42"
+             width="90.209999"
+             height="90.209999"
+             filterUnits="userSpaceOnUse"
+             primitiveUnits="userSpaceOnUse">
+            <feFlood
+               id="feFlood5" />
+            <feComposite
+               in2="SourceAlpha"
+               operator="in"
+               id="feComposite7" />
+            <feGaussianBlur
+               stdDeviation="1.41"
+               id="feGaussianBlur9" />
+            <feOffset
+               dx="2"
+               dy="2"
+               result="afterOffset"
+               id="feOffset11" />
+            <feFlood
+               flood-color="#000000"
+               flood-opacity="0.5"
+               id="feFlood13" />
+            <feComposite
+               in2="afterOffset"
+               operator="in"
+               id="feComposite15" />
+            <feMorphology
+               operator="dilate"
+               radius="1"
+               id="feMorphology17" />
+            <feComposite
+               in2="SourceAlpha"
+               operator="out"
+               id="feComposite19" />
+          </filter>
+          <path
+             d="m 333.68,280.53 c 0,17.72 -14.38,32.1 -32.1,32.1 -17.72,0 -32.11,-14.38 -32.11,-32.1 0,-17.72 14.39,-32.11 32.11,-32.11 17.72,0 32.1,14.39 32.1,32.11 z"
+             id="aF7l7F0GO"
+             fill="#ffffff"
+             fill-opacity="1"
+             filter="url(#shadow15918135)" />
+        </g>
+        <use
+           xlink:href="#a4iNAZFK3"
+           opacity="1"
+           fill="#3071f0"
+           fill-opacity="1"
+           id="use25"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+  </g>
+</svg>
