@@ -1,6 +1,6 @@
 <div class="flex flex-col space-y-4">
     <div class="flex flex-row justify-center">
-        <h1 class="font-sans text-xl font-bold">Add Member Details</h1>
+        <h1 class="font-sans text-xl font-bold text-gray-700">Edit Member Details</h1>
     </div>
     <div class="flex flex-row space-x-4">
         <div class="flex flex-col items-center">
@@ -25,7 +25,9 @@
 
     <label for="current" class="-mb-1">Current Projects</label>
     <input type="hidden" name="current" value="">
-    <textarea name="current" cols="30" rows="5" class="border border-black px-2 pt-2">{{ $member->current }}</textarea>
-    <input type="submit" value="Submit" class="border text-white font-medium bg-blue-900">
+    <textarea name="current" cols="30" rows="5" class="border border-black px-2 py-2">{{ $member->current }}</textarea>
+    <div class="flex flex-row">
+        <input type="submit" value="Submit" class="border text-blue-50 font-semibold bg-indigo-900 rounded tracking-wide w-32 h-8 ml-80">
+    </div>
     </form>
 </div>

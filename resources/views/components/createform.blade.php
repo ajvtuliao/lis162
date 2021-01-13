@@ -1,6 +1,6 @@
 <div class="flex flex-col space-y-4">
     <div class="flex flex-row justify-center">
-        <h1 class="font-sans text-xl font-bold">Add Member Details</h1>
+        <h1 class="font-sans text-xl font-bold text-gray-700">Add Member Details</h1>
     </div>
     <div class="flex flex-row space-x-4">
         <div class="flex flex-col items-center">
@@ -24,9 +24,9 @@
 
     <label for="current">Current Projects</label>
     <input type="hidden" name="current" value="">
-    <textarea name="current" cols="30" rows="5" class="border border-black"></textarea>
+    <textarea name="current" cols="30" rows="5" class="border border-black px-2 py-2"></textarea>
     <div class="flex flex-row justify-end">
-        <button type="submit">Submit</button>
+        <button type="submit" class="border-indigo-800 bg-indigo-900 text-blue-50 font-semibold w-28 h-8 rounded-sm">Submit</button>
     </div>
     </form>
 </div>
