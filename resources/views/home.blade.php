@@ -1,6 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +12,7 @@
 
 <body>
     <div class="flex flex-col space-y-4">
-        <x-header></x-header>
+        <x-header class="bg-indigo-50"></x-header>
         <div class="flex flex-row justify-center ">
             <x-search></x-search>
         </div>
