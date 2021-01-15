@@ -1,5 +1,5 @@
 <div class="flex flex-row">
-    <table class="table-auto border-2 border-collapse ml-16 mr-12">
+    <table class="table-auto border-2 border-collapse ml-16 mr-12 -mt-5">
         <thead class="bg-indigo-100 text-gray-700">
             <tr>
                 <th class="w-4/12 border-2 border-gray-300 font-bold tracking-wide">Name</th>

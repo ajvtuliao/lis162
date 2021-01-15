@@ -1,10 +1,11 @@
 <div class="flex flex-row">
-    <table class="table-auto  ml-16 mr-14 border-2 border-gray-300 border-collapse">
+    <table class="table-auto  ml-16 -mt-5 mr-14 border-2 border-gray-300 border-collapse">
         <thead class="bg-indigo-100 text-gray-700">
             <tr>
                 <th class="w-96 border-2 border-gray-300 font-bold tracking-wide">Name</th>
-                <th class="w-96 border-2 border-gray-300 font-bold tracking-wide">Membership Status</th>
+                <th class="w-64 border-2 border-gray-300 font-bold tracking-wide">Membership Status</th>
                 <th class="w-96 border-2 border-gray-300 font-bold tracking-wide">Current Projects</th>
+                <th class="w-96 border-2 border-gray-300 font-bold tracking-wide">Skills</th>
             </tr>
         </thead>
         <tbody>
@@ -12,14 +13,15 @@
             <tr>
                 <td class="text-center hover:underline border-b subpixel-antialiased font-medium text-gray-700"><a href="#view-{{ $member->id }}" rel="modal:open">{{ $member->name }}</a></td>
                 <td class="text-justify border-b subpixel-antialiased text-gray-700 ">
-                    <div class="ml-36 -mt-1">                
+                    <div class="ml-24 -mt-1">                
                         {{ $member->membership }}
                     </div>
                     <div>
-                        <img src="{{ asset('img/'.strtolower($member->membership).'.svg') }}" alt="status" class="w-3 -mt-4 ml-32"> 
+                        <img src="{{ asset('img/'.strtolower($member->membership).'.svg') }}" alt="status" class="w-3 -mt-4 ml-20"> 
                     </div>
                 </td>
                 <td class="text-center hover:underline border-b subpixel-antialiased font-medium text-gray-700">{{ $member->current }}</td>
+                <td class="text-center hover:underline border-b subpixel-antialiased font-medium text-gray-700"></td>
             </tr>
             @endforeach
         </tbody>
