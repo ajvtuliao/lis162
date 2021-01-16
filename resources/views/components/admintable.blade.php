@@ -13,11 +13,11 @@
             <tr>
                 <td class="text-center hover:underline border-b subpixel-antialiased font-medium text-gray-700"><a href="#view-{{ $member->id }}" rel="modal:open">{{ $member->name }}</a></td>
                 <td class="text-justify border-b subpixel-antialiased text-gray-700 ">
-                    <div class="ml-36 -mt-1">                
+                    <div class="ml-36 -mt-1">
                         {{ $member->membership }}
                     </div>
                     <div>
-                        <img src="{{ asset('img/'.strtolower($member->membership).'.svg') }}" alt="status" class="w-3 -mt-4 ml-32"> 
+                        <img src="{{ asset('img/'.strtolower($member->membership).'.svg') }}" alt="status" class="w-3 -mt-4 ml-32">
                     </div>
                 </td>
                 <td class="border-b subpixel-antialiased"><a href="#edit-{{ $member->id }}" rel="modal:open" class="flex justify-center"><img src="{{ asset('img/edit.svg') }}" class="w-3/12 md:w-1/12"></a></td>
@@ -37,4 +37,7 @@
 @endforeach
 <div id="create" class="modal">
     <x-createform></x-createform>
+</div>
+<div id="addskill" class="modal">
+    <x-addskill></x-addskill>
 </div>

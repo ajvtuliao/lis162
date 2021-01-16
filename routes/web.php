@@ -27,3 +27,5 @@ Route::post('/create', 'App\Http\Controllers\MemberController@store')->middlewar
 Route::post('/search', 'App\Http\Controllers\MemberController@show')->middleware(['auth']);
 
 Route::get('/logout', 'App\Http\Controllers\MemberController@logout')->middleware(['auth']);
+
+Route::post('/addskill', 'App\Http\Controllers\SkillController@create')->middleware(['auth']);
